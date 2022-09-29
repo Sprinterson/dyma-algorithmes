@@ -1,5 +1,9 @@
+/* 
+- Algorithme de complexité O(n)
+*/
+
 const tableau = new Array(100).fill().map((x, i) => i + 1);
-const numberToGuess = Math.floor(Math.random() * 100);
+const numberToGuess = Math.floor(Math.random() * 100000000);
 let numberOfTries = 0;
 console.log('number to guess: ', numberToGuess);
 
